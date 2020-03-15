@@ -27,11 +27,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `Note`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-Note
 Homepage have 3 tabs
 
 First tabs: top headline news with image, title (click title to redirect original link) and description
@@ -46,3 +43,7 @@ After register success, user must log in, if login success, the form change user
 (username can not change, only change name and password)
 After save the changes, the data in seconds tabs will change and based with keyword
 Reload and login again with data user just changed
+
+### `Publish`
+
+The source code is built and public at link: https://nhonnhon.github.io/finso/, but the api is wrong because it need https, (api now is http). So we can test in local
