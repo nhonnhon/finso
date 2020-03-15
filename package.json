@@ -2,7 +2,7 @@
   "name": "react-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nhonnhon.github.io/kamereo/",
+  "homepage": "https://nhonnhon.github.io/finso/",
   "dependencies": {
     "axios": "^0.19.2",
     "enzyme-adapter-react-16": "^1.15.2",
