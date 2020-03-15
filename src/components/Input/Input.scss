@@ -1,0 +1,74 @@
+@import '../../assets/css/base.scss';
+
+.sc-input-container {
+  .extra-icon {
+    width: 32px;
+  }
+  .label {
+    padding-bottom: 10px;
+    color: $gray;
+  }
+  .input-container {
+    border: 1px solid $gray1;
+    padding: 14px 22px 12px 15px;
+    border-radius: 3px;
+    background: #ffffff;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    &.focus {
+      border: 1px solid $gray;
+    }
+    input {
+      background: #ffffff;
+      border: none;
+      font-size: 1em;
+      font-weight: 400;
+      padding: 0;
+      &:focus {
+        outline-offset: 0;
+        outline: none;
+      }
+      &[disabled] {
+        &::placeholder {
+          /* Chrome, Firefox, Opera, Safari 10.1+ */
+          color: $gray1;
+        }
+      }
+
+      &::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        opacity: 0.4;
+      }
+      &::-moz-placeholder {
+        /* Firefox 19+ */
+        opacity: 0.4;
+      }
+      &:-ms-input-placeholder {
+        /* IE 10+ */
+        opacity: 0.4;
+      }
+      &:-moz-placeholder {
+        /* Firefox 18- */
+        opacity: 0.4;
+      }
+    }
+    textarea {
+      background: #ffffff;
+      border: none;
+      width: 100%;
+      resize: none;
+      padding: 0;
+      &:focus {
+        outline-offset: 0;
+        outline: none;
+      }
+      &[disabled] {
+        &::placeholder {
+          /* Chrome, Firefox, Opera, Safari 10.1+ */
+          color: $gray1;
+        }
+      }
+    }
+  }
+}

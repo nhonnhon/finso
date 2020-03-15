@@ -1,0 +1,24 @@
+@import './base.scss';
+
+.react-tabs__tab-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  .react-tabs__tab {
+    flex: 1;
+    text-align: center;
+    background-color: #eeeeee;
+    cursor: pointer;
+    border-right: 1px solid #dedede;
+    padding: 10px 15px;
+    font-weight: bold;
+    &:last-child {
+      border-right: 0;
+    }
+    &.react-tabs__tab--selected {
+      background-color: $green;
+      color: $white;
+    }
+  }
+}

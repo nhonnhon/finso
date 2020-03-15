@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "globals": {
+    "document": true,
+    "module": true,
+    "__dirname": true,
+    "alert": true,
+    "require": true,
+    "google": true,
+    "window": true,
+    "Promise": true,
+    "process": true,
+    "define": true,
+    "location": true,
+    "setTimeout": true,
+    "navigator": true
+  },
+  "rules": {
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/prop-types": 0
+  }
+}

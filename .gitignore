@@ -1,0 +1,9 @@
+node_modules
+build
+
+.vscode
+.DS_Store
+.scannerwork
+coverage
+test-report.xml
+.prettierrc.jsons

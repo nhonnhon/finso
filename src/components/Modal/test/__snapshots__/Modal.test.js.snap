@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component Matches the snapshot 1`] = `
+<div
+  className="modal  "
+>
+  <div
+    className="modal-dialog"
+  >
+    <div
+      className="modal-content"
+    >
+      <div
+        className="cancel-btn-modal"
+        onClick={[Function]}
+      >
+        <div
+          className="close-button"
+        >
+          X
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

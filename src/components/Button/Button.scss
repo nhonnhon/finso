@@ -1,0 +1,45 @@
+@import '../../assets/css/base.scss';
+
+.btn {
+  display: inline-block;
+  outline: none;
+  padding: 15px 15px;
+  background: transparent;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  &:hover {
+    opacity: 0.8;
+  }
+  &.big {
+    display: block;
+  }
+  &.small {
+    min-width: 220px;
+  }
+  &.white {
+    background: $white;
+  }
+  &.gray {
+    background: $gray;
+  }
+  &.gray1 {
+    background: $gray1;
+  }
+  &.black {
+    background: $black;
+  }
+  &.green {
+    background: $green;
+  }
+  &.transparent {
+    background: transparent;
+  }
+  &.disable {
+    cursor: default;
+  }
+  .text {
+    text-align: center;
+  }
+}

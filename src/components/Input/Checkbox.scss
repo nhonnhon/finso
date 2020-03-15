@@ -1,0 +1,32 @@
+@import '../../assets/css/base.scss';
+
+.checkbox {
+  display: block;
+  min-height: 20px;
+  position: relative;
+  cursor: pointer;
+  > .icon {
+    height: 20px;
+    position: absolute;
+    width: 20px;
+    border: 1px solid $gray1;
+    background-color: $white;
+  }
+  &.checked {
+    > .icon {
+      background-color: $green;
+    }
+  }
+  > label {
+    display: inline-block;
+    font-weight: 300;
+    line-height: 1.57em;
+    &.white {
+      color: #ffffff;
+      span,
+      p {
+        color: #ffffff;
+      }
+    }
+  }
+}

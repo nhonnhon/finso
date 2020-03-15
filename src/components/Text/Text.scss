@@ -1,0 +1,37 @@
+@import './../../assets/css/base.scss';
+
+.text {
+  display: block;
+  color: $black;
+  text-align: left;
+
+  &.uppercase {
+    text-transform: uppercase;
+  }
+
+  &.inline {
+    display: inline-block;
+
+    &.top {
+      vertical-align: top;
+    }
+
+    &.center {
+      vertical-align: middle;
+    }
+
+    &.bot {
+      vertical-align: bottom;
+    }
+  }
+
+  &.clickable {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &.white {
+    color: $white;
+  }
+}
