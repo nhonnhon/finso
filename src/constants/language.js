@@ -1,5 +1,5 @@
 export const Lang = {
-  titleProject: 'Finso Test',
+  titleProject: 'Finso',
   somethingWentWrong: 'Something went wrong',
   ok: 'ok',
   topHeadlines: 'Top Headlines',
@@ -26,4 +26,5 @@ export const Lang = {
   keywordNews: 'Keyword news',
   update: 'Update',
   saveSuccess: 'Save success',
+  note: 'Note',
 }

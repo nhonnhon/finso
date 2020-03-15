@@ -24,6 +24,33 @@ class Home extends React.Component {
           keywordNews={keywordNews}
           changeKeyword={changeKeyword}
         />
+        <hr></hr>
+        <h3>Note</h3>
+        <p className="mt-1">Homepage have 3 tabs</p>
+        <p className="mt-1">
+          First tabs: top headline news with image, title (click title to redirect original link) and
+          description
+        </p>
+        <p className="mt-1">
+          Second tab: custom news based with keyword, default keyword is BITCOIN, user can change this key
+          word in third tab
+        </p>
+        <p className="mt-1">Third tab: user settings</p>
+        <ul style={{ paddingLeft: '40px' }}>
+          <li className="mt-1">if user have not logged yet: form login will show</li>
+          <li className="mt-1">
+            if user does not have account, click button do not have account, the form register will show. Data
+            of user is saved in storage
+          </li>
+          <li className="mt-1">
+            After register success, user must log in, if login success, the form change user data will show
+            <br></br> (username can not change, only change name and password)
+          </li>
+          <li className="mt-1">
+            After save the changes, the data in seconds tabs will change and based with keyword
+          </li>
+          <li className="mt-1">Reload and login again with data user just changed</li>
+        </ul>
       </div>
     )
   }
