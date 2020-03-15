@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c92224fc655b4ce2e450d3e966b2607",
+    "revision": "abf23ca555d1acde130815b41447b1e5",
     "url": "/finso/index.html"
   },
   {
-    "revision": "767a6c497ea64edefbee",
+    "revision": "f82acc8b6d734921d6a4",
     "url": "/finso/static/css/main.873549ea.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/finso/static/js/2.bc634e1c.chunk.js"
   },
   {
-    "revision": "767a6c497ea64edefbee",
-    "url": "/finso/static/js/main.aeb5950a.chunk.js"
+    "revision": "f82acc8b6d734921d6a4",
+    "url": "/finso/static/js/main.91b6dcfe.chunk.js"
   },
   {
     "revision": "c1c7f5a25366ec6af5bb",
