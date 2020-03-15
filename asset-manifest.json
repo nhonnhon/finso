@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/finso/static/css/main.873549ea.chunk.css",
+    "main.js": "/finso/static/js/main.aeb5950a.chunk.js",
+    "main.js.map": "/finso/static/js/main.aeb5950a.chunk.js.map",
+    "runtime-main.js": "/finso/static/js/runtime-main.af547c8e.js",
+    "runtime-main.js.map": "/finso/static/js/runtime-main.af547c8e.js.map",
+    "static/js/2.bc634e1c.chunk.js": "/finso/static/js/2.bc634e1c.chunk.js",
+    "static/js/2.bc634e1c.chunk.js.map": "/finso/static/js/2.bc634e1c.chunk.js.map",
+    "index.html": "/finso/index.html",
+    "precache-manifest.c343d17d5a884fdc0269972c029738f8.js": "/finso/precache-manifest.c343d17d5a884fdc0269972c029738f8.js",
+    "service-worker.js": "/finso/service-worker.js",
+    "static/css/main.873549ea.chunk.css.map": "/finso/static/css/main.873549ea.chunk.css.map",
+    "static/media/collapsible-arrow.svg": "/finso/static/media/collapsible-arrow.ef2915c0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af547c8e.js",
+    "static/js/2.bc634e1c.chunk.js",
+    "static/css/main.873549ea.chunk.css",
+    "static/js/main.aeb5950a.chunk.js"
+  ]
+}
